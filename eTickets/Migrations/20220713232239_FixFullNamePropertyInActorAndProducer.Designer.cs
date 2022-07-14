@@ -9,7 +9,7 @@ using eTickets.Data;
 
 namespace eTickets.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(IActionService))]
     [Migration("20220713232239_FixFullNamePropertyInActorAndProducer")]
     partial class FixFullNamePropertyInActorAndProducer
     {

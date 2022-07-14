@@ -9,7 +9,7 @@ using eTickets.Data;
 
 namespace eTickets.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(IActionService))]
     [Migration("20220713230614_Initial")]
     partial class Initial
     {

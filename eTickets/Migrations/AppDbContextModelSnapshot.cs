@@ -8,7 +8,7 @@ using eTickets.Data;
 
 namespace eTickets.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(IActionService))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
