@@ -8,9 +8,9 @@ namespace eTickets.Controllers
 {
     public class MoviesController : Controller
     {
-        private readonly IActionService _context;
+        private readonly AppDbContext _context;
 
-        public MoviesController(IActionService context)
+        public MoviesController(AppDbContext context)
         {
             _context = context;
         }

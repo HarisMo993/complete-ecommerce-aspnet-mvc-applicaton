@@ -8,9 +8,9 @@ namespace eTickets.Controllers
 {
     public class ProducersController : Controller
     {
-        private readonly IActionService _context;
+        private readonly AppDbContext _context;
 
-        public ProducersController(IActionService context)
+        public ProducersController(AppDbContext context)
         {
             _context = context;
         }

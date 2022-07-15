@@ -8,10 +8,10 @@ namespace eTickets.Data.Services
 {
     public class ActorsService : IActorsService
     {
-        private readonly IActionService _context;
+        private readonly AppDbContext _context;
 
 
-        public ActorsService(IActionService context)
+        public ActorsService(AppDbContext context)
         {
             _context = context;
         }

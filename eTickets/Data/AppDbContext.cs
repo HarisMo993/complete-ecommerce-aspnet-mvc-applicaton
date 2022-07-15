@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace eTickets.Data
 {
-    public class IActionService : DbContext
+    public class AppDbContext : DbContext
     {
-        public IActionService(DbContextOptions<IActionService> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
         }
